@@ -283,10 +283,9 @@
                 position: []
             },
             blacklists: {
-
-            },
             newBlacklisted: [],
             newBlacklistedSongFunction: null,
+            },
             roulette: {
                 rouletteStatus: false,
                 participants: [],
