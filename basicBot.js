@@ -238,6 +238,7 @@
             blacklists: {
                 NSFW: "https://rawgit.com/Antisenil/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
                 OP: "https://rawgit.com/Antisenil/basicBot-customization/master/blacklists/ExampleOPlist.json"
+                THEME: "https://rawgit.com/Antisenil/basicBot-customization/master/blacklists/THEME.json"
             }
         },
         room: {
@@ -283,9 +284,12 @@
                 position: []
             },
             blacklists: {
+                NSFW: "https://rawgit.com/Antisenil/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+                OP: "https://rawgit.com/Antisenil/basicBot-customization/master/blacklists/ExampleOPlist.json"
+                THEME: "https://rawgit.com/Antisenil/basicBot-customization/master/blacklists/THEME.json"
+            },
             newBlacklisted: [],
             newBlacklistedSongFunction: null,
-            },
             roulette: {
                 rouletteStatus: false,
                 participants: [],
