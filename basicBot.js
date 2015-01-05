@@ -1470,6 +1470,7 @@
                         var list = msg.substr(cmd.length + 1);
                         if (typeof basicBot.room.blacklists[list] === 'undefined') return API.sendChat(subChat(basicBot.chat.invalidlistspecified, {name: chat.un}));
                         else {
+                            var liste = basicBot.room.blacklists[list];
                             var media = API.getMedia();
                             var track = {
                                 list: list,
